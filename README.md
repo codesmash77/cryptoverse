@@ -1,3 +1,33 @@
+Deployed at [CryptoVerse@AWS-AMPLIFY](https://master.d10ls058kg381q.amplifyapp.com/).
+
+Login Page
+![image](https://user-images.githubusercontent.com/33595080/166339879-17340d27-a03b-44c5-8feb-fc68d5e5b017.png)
+
+Dashboard
+![image](https://user-images.githubusercontent.com/33595080/166339927-a248eb29-ff5e-4f95-8504-7df565876f88.png)
+
+Cryptocurrencies
+![image](https://user-images.githubusercontent.com/33595080/166340044-44c76708-fa0d-4175-8808-c4283351c05b.png)
+
+PriceTracker
+![image](https://user-images.githubusercontent.com/33595080/166340066-4cc0bc94-3fd4-4882-89ef-493412130985.png)
+
+Returns Calculator
+![image](https://user-images.githubusercontent.com/33595080/166340081-477358fc-8cbe-4e2f-a08e-e9806135d9b8.png)
+
+CryptoNews
+![image](https://user-images.githubusercontent.com/33595080/166340094-5628bf20-8ebd-49a4-9d80-33fbe1d7f94f.png)
+
+Footer & Signout
+![image](https://user-images.githubusercontent.com/33595080/166340139-e64fa3ed-ec59-497c-9f91-8d164b33b7b8.png)
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
