@@ -4,8 +4,6 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Navbar, PriceTracker, Homepage, Cryptocurrencies, News, CryptoDetails, ReturnsCalculator } from './components';
 import './App.css';
-import { Button } from 'antd';
-import { LogoutOutlined } from '@ant-design/icons';
 
 import { Amplify } from 'aws-amplify';
 import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
@@ -14,7 +12,7 @@ import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
 
-const App = ({ signOut,user }) => {
+const App = () => {
   
   return (
     <div className="app">
