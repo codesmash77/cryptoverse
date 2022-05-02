@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cryptoverse-dev-224613-authRole",
+      "UnauthRoleArn": "arn:aws:iam::717490412270:role/amplify-cryptoverse-dev-224613-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::717490412270:role/amplify-cryptoverse-dev-224613-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-cryptoverse-dev-224613-deployment",
+      "UnauthRoleName": "amplify-cryptoverse-dev-224613-unauthRole",
+      "StackName": "amplify-cryptoverse-dev-224613",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:717490412270:stack/amplify-cryptoverse-dev-224613/8867a110-ca50-11ec-83c2-02266a352320",
+      "AmplifyAppId": "d1bmdsli0t1wft"
+    },
+    "categories": {
+      "auth": {
+        "cryptoverseb939fb51": {}
+      }
+    }
+  }
+}
