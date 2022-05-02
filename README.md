@@ -1,4 +1,11 @@
-Deployed at (https://master.d10ls058kg381q.amplifyapp.com/).
+Deployed at [CryptoVerse](https://master.d10ls058kg381q.amplifyapp.com/).
+Login Page
+![image](https://user-images.githubusercontent.com/33595080/166339879-17340d27-a03b-44c5-8feb-fc68d5e5b017.png)
+
+Dashboard
+![image](https://user-images.githubusercontent.com/33595080/166339927-a248eb29-ff5e-4f95-8504-7df565876f88.png)
+
+
 
 
 
