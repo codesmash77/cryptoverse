@@ -52,7 +52,7 @@ const PriceTracker = () => {
             volume={coin.market_cap}
             image={coin.image}
             priceChange={coin.price_change_percentage_24h}
-          />
+          />          
         );
       })}
     </div>

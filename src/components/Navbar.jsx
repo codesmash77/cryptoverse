@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Menu, Typography, Avatar } from 'antd';
 import { Link } from 'react-router-dom';
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
+import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined, CalculatorOutlined, RadarChartOutlined } from '@ant-design/icons';
 
 import icon from '../images/cryptocurrency.png';
 
@@ -45,7 +45,10 @@ const Navbar = () => {
         <Menu.Item icon={<MoneyCollectOutlined />}>
           <Link to="/pricetracker">PriceTracker</Link>
         </Menu.Item>
-        <Menu.Item icon={<MoneyCollectOutlined />}>
+        <Menu.Item icon={<RadarChartOutlined />}>
+          <Link to="/cryptoanalyzer">Crypto Analyzer</Link>
+        </Menu.Item>
+        <Menu.Item icon={<CalculatorOutlined />}>
           <Link to="/returnscalc">Returns Calculator</Link>
         </Menu.Item>
         <Menu.Item icon={<BulbOutlined />}>

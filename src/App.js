@@ -2,17 +2,23 @@ import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
-import { Navbar, PriceTracker, Homepage, Cryptocurrencies, News, CryptoDetails, ReturnsCalculator } from './components';
+import { Navbar, PriceTracker, Homepage, Cryptocurrencies, News, CryptoDetails, ReturnsCalculator, CryptoAnalyzer } from './components';
 import './App.css';
+
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { theme as customTheme } from './components/Crypto Analyzer/theme';
 
 import { Amplify } from 'aws-amplify';
 import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
 import awsExports from './aws-exports';
 
+
 Amplify.configure(awsExports);
 
 
 const App = () => {
+   const mode = 'dark';
   
   return (
     <div className="app">
@@ -41,6 +47,12 @@ const App = () => {
             <Route exact path="/returnscalc">
               <ReturnsCalculator/>
             </Route>
+            <Route exact path="/cryptoanalyzer">
+              <ThemeProvider theme={customTheme[mode]}>
+                <CssBaseline />
+                <CryptoAnalyzer/>
+              </ThemeProvider>
+            </Route>
           </Switch>
         </div>
       </Layout>
@@ -56,6 +68,7 @@ const App = () => {
           <Link to="/pricetracker">PriceTracker</Link>
           <Link to="/returnscalc">Returns Calculator</Link>
           <Link to="/news">News</Link>
+          <Link to="/cryptoanalyzer">Crypto Analyzer</Link>
         </Space>
         <AmplifySignOut />
       </div>
